@@ -1,0 +1,44 @@
+body {
+    background-image: url("../img/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f5f5f5;
+    /*color: black;*/
+    font-family: 'Raleway', sans-serif;
+    /*font-size: 5em;*/
+}
+
+header {
+    font-size: 1em;
+}
+
+main {
+    margin: 250px auto;
+    /*font-size: 1.25em;*/
+    text-align: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+h1 {
+    font-size: 3em;
+}
+
+hr {
+    size: 1px;
+    width: 10%;
+    /*border: none;*/
+    height: 1px;
+    color: whitesmoke;
+}
+
+footer {
+    font-size: .75em;
+    position: absolute;
+    bottom: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: #f5f5f5;
+}
