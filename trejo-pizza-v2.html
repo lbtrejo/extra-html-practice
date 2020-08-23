@@ -40,17 +40,17 @@
         <h2>Build your own pizza!</h2>
         <ul class="nav nav-tabs" id="buildTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link text-success active" data-toggle="tab" id="sizeCrust-tab" href="#sizeCrust" aria-controls="sizeCrust" aria-selected="true"><span class="badge badge-pill badge-success">1</span> Size and Crust</a>
+                <a class="nav-link text-success" data-toggle="tab" id="sizeCrust-tab" href="#sizeCrust" aria-controls="sizeCrust" aria-selected="false"><span class="badge badge-pill badge-success">1</span> Size and Crust</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-success" href="#"><span class="badge badge-pill badge-success">2</span> Cheese and Sauce</a>
+                <a class="nav-link text-success active" data-toggle="tab" id="cheeseSauce-tab" href="#cheeseSauce" aria-controls="cheeseSauce" aria-selected="true"><span class="badge badge-pill badge-success">2</span> Cheese and Sauce</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-success" href="#"><span class="badge badge-pill badge-success">3</span> Toppings</a>
+                <a class="nav-link text-success" data-toggle="tab" id="toppings-tab" href="#toppings" aria-controls="toppings" aria-selected="false"><span class="badge badge-pill badge-success">3</span> Toppings</a>
             </li>
         </ul>
         <div class="tab-content container p-0">
-            <div class="tab-pane fade show active" id="sizeCrust" role="tabpanel" aria-labelledby="sizeCrust-tab">
+            <div class="tab-pane fade" id="sizeCrust" role="tabpanel" aria-labelledby="sizeCrust-tab">
                 <div class="card">
                     <div class="card-header bg-success">Choose size and crust</div>
                     <div class="card-body">
@@ -107,7 +107,57 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
+            <div class="tab-pane fade show active" id="cheeseSauce" role="tabpanel" aria-labelledby="cheeseSauce-tab">
+                <div class="card">
+                    <div class="card-header bg-success">Choose Cheese and Sauce</div>
+                    <div class="card-body">
+                        <div class="card mb-3">
+                            <div class="card-header">Cheese</div>
+                            <div class="card-body p-0">
+                                <div class="form-group p-3 m-0">
+                                    <label for="cheeseAmount">How Much?</label>
+                                    <select class="form-control" id="cheeseAmount">
+                                        <option>Light</option>
+                                        <option>Normal</option>
+                                        <option>Extra</option>
+                                        <option>Double</option>
+                                        <option>Ultra</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">Sauce</div>
+                            <div class="card-body p-0">
+                                <div class="form-group p-3 border-bottom m-0">
+                                    <label for="sauceType">What Type?</label>
+                                    <select class="form-control" id="sauceType">
+                                        <option>Tomato Sauce</option>
+                                        <option>Marinara Sauce</option>
+                                        <option>BBQ Sauce</option>
+                                        <option>Alfredo Sauce</option>
+                                        <option>Secret Sauce</option>
+                                    </select>
+                                </div>
+                                <div class="form-group p-3 m-0">
+                                    <label for="sauceAmount">How Much?</label>
+                                    <select class="form-control" id="sauceAmount">
+                                        <option>Light</option>
+                                        <option>Normal</option>
+                                        <option>Extra</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn-group float-right" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-success text-dark">< Previous Step</button>
+                                    <button type="button" class="btn btn-success text-dark">Next Step ></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
