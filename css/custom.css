@@ -6,3 +6,6 @@
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+.build-pizza a:hover {
+    background-color: #c9c9c9;
+}

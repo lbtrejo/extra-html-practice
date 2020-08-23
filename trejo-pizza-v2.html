@@ -36,6 +36,81 @@
             </div>
         </div>
     </div>
+    <div class="container p-0 build-pizza">
+        <h2>Build your own pizza!</h2>
+        <ul class="nav nav-tabs" id="buildTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link text-success active" data-toggle="tab" id="sizeCrust-tab" href="#sizeCrust" aria-controls="sizeCrust" aria-selected="true"><span class="badge badge-pill badge-success">1</span> Size and Crust</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-success" href="#"><span class="badge badge-pill badge-success">2</span> Cheese and Sauce</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-success" href="#"><span class="badge badge-pill badge-success">3</span> Toppings</a>
+            </li>
+        </ul>
+        <div class="tab-content container p-0">
+            <div class="tab-pane fade show active" id="sizeCrust" role="tabpanel" aria-labelledby="sizeCrust-tab">
+                <div class="card">
+                    <div class="card-header bg-success">Choose size and crust</div>
+                    <div class="card-body">
+                        <div class="card mb-3">
+                            <div class="card-header">Hand Tossed</div>
+                            <div class="card-body p-0">
+                                <p class="p-3 m-0">Garlic seasoned crust with a rich, buttery taste.</p>
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="crustSize" id="handTossedSmall" value="handTossedSmall" checked>
+                                            <label class="form-check-label" for="handTossedSmall">
+                                                Small (10")
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="crustSize" id="handTossedMedium" value="handTossedMedium">
+                                            <label class="form-check-label" for="handTossedMedium">
+                                                Medium (12")
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">Crispy Thin</div>
+                            <div class="card-body p-0">
+                                <p class="p-3 m-0">Thin enough for optimum crispy to crunch ratio.</p>
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="crustSize" id="crispyThinMedium" value="crispyThinMedium" checked>
+                                            <label class="form-check-label" for="crispyThinMedium">
+                                                Medium (12")
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="crustSize" id="crispyThinLarge" value="crispyThinLarge">
+                                            <label class="form-check-label" for="crispyThinLarge">
+                                                Large (14")
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success float-right">Next Step ></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
