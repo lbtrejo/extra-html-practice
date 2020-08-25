@@ -1,0 +1,42 @@
+* {
+    font-family: 'Abel', sans-serif;
+}
+.text-head {
+    font-family: 'Anton', sans-serif;
+}
+.bg-red {
+    background-color: #E6563B;
+}
+.bg-orange {
+    background-color: #EB9D3A;
+}
+.bg-green {
+    background-color: #7CB06C;
+}
+.bg-blue {
+    background-color: #00ABA9;
+}
+.bg-light-grey {
+    background-color: #f0f0f0;
+}
+.bg-grey {
+    background-color: #E6E6E6;
+}
+.bg-gradient {
+    background-image: linear-gradient(to bottom, #f0f0f0 20%, white 20%, white 80%, #f0f0f0 80%)
+}
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 32px;
+}
+h5 {
+    font-size: 28px;
+}
